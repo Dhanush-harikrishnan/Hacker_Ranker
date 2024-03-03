@@ -13,7 +13,7 @@ import static java.util.stream.Collectors.toList;
 class Result {
 
     public static List<Integer> rotateLeft(int d, List<Integer> arr) {
-        // Write your code here
+        
         int n = arr.size();
         d %= n;
 
